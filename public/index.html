@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test-test-test</title>
 
+    <!--
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    -->
+
 </head>
 <body>
-<h1>Hello, world!</h1>
+    <div id="react-app"></div>
 <!-- Add a menu:
    Log in / Sign up - when the user is not logged in
    Username / Log out - when the user is logged in
   -->
+<!--
 <div data-netlify-identity-menu></div>
-
+-->
 <!-- Add a simpler button:
   Simple button that will open the modal.
 -->
+<!--
 <div data-netlify-identity-button>Login with Netlify Identity</div>
+-->
 
 </body>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<script src="components/main.jsx" type="text/babel"></script>
+
 </html>
